@@ -1,0 +1,26 @@
+### Upload image
+POST http://localhost:8081/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="zari.jpg"
+
+< /Users/hello/Downloads/zari.jpg
+
+
+### Upload video
+
+POST http://localhost:8081/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="test.mp4"
+
+< /Users/hello/Downloads/test.mp4
+
+
+### Open file
+GET http://localhost:8081/attach/open/c129368c-cb99-4830-845c-f3e30272c356.jpg
+
+### Download file
+GET http://localhost:8081/attach/download/c129368c-cb99-4830-845c-f3e30272c356.jpg

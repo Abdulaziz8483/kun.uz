@@ -1,0 +1,28 @@
+### Post create
+POST localhost:8080/post
+Content-Type: application/json
+
+{
+  "title": "Yanigi pc oldim",
+  "imageIdList": [
+    "asdasd-asdasd-asdasda",
+    "dasdas-dasd-asdasdasd-da",
+    "111111",
+    "222222"
+  ]
+}
+
+
+### Upate create
+POST localhost:8080/post
+Content-Type: application/json
+
+{
+  "title": "Yanigi pc oldim daxsaht",
+  "imageIdList": [
+    "asdasd-asdasd-asdasda",
+    "dasdas-dasd-asdasdasd-da",
+    "2222222",
+    "3333333"
+  ]
+}
