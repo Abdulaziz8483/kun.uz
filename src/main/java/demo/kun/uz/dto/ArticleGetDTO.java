@@ -4,10 +4,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-
 @Getter
 @Setter
-public class ArticleDTO {
+public class ArticleGetDTO {
+    private String id;
     private String title;
     private String description;
     private String content;
